@@ -25,7 +25,7 @@ namespace WebApplication2.Middlewares
 
             if (httpContext.Request != null)
             {
-                string sciezka = httpContext.Request.Path; //"weatherforecast/cos"
+                string sciezka = httpContext.Request.Path; 
                 string querystring = httpContext.Request?.QueryString.ToString();
                 string metoda = httpContext.Request.Method.ToString();
                 string bodyStr = "";

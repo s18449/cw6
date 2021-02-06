@@ -24,8 +24,6 @@ namespace WebApplication2.Controllers
                 new Student{IdStudent=3, FirstName="Krzysztof", LastName="Andrzejewicz"}
             };
 
-            //throw new StudentCannotDefendException("Student nie moze sie bronic, bo ...");
-
             return Ok(list);
         }
 
